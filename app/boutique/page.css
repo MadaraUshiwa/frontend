@@ -1,0 +1,58 @@
+.ligne{
+    width: 90%;
+    height: 2px;
+    background-color: #f2f2f2;
+    margin: 0 auto;    
+}
+
+.boutique-games{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    color: #d9d8d8;
+}
+
+.boutique{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.boutique-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 35px;
+}
+
+.boutique-header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.boutique-header select{
+    width: 23%;
+    height: 40px;
+    border-radius: 8px;
+    background-color: #d9d8d8;
+    font-family: 'Inter', sans-serif;
+}
+
+.boutique-header input{
+    width: 23%;
+    height: 35px;
+    border-radius: 8px;
+    background-color: #d9d8d8;
+    font-family: 'Inter', sans-serif;
+}
+
+.boutique-grid-footer{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 30px;    
+}
+

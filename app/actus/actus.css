@@ -1,0 +1,85 @@
+.actus{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.actuscontent{
+    width: 80%;
+}
+
+.actustitre{
+    margin-block: 3%;
+
+
+}
+.actustitre h1{
+    margin: 0;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.actusbigimg{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 2%;
+}
+
+.actusbigleft{
+    width: 50%;
+    color: white;
+}
+
+.actusbigright{
+    width: 50%;
+    color: white;
+}
+.actusjour{
+    font-weight: 500;
+    font-size: 12px;
+}
+.actustitreimg{
+    font-weight: 700;
+}
+
+.actuscontenu{
+    font-weight: 200;
+}
+
+#imgwow{
+    width: 100%;
+    height: 60%;
+}
+#imgaoe{
+    width: 100%;
+    height: 60%;
+}
+
+.actuligne{
+    width: 100%;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.479);
+    margin-block: 3%;
+}
+
+.ff{
+    width: 100%;
+    display: flex;
+    gap: 2%;
+    color: white;
+}
+
+#imgff{
+    width: 20%;
+    height: auto;
+}
+
+.actusjour{
+    width: 80%;
+}
+
+.actupad{
+    padding-bottom: 4%;
+}
